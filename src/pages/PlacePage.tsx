@@ -4,11 +4,11 @@ import { toast } from "sonner";
 import { supabase } from "@/integrations/supabase/client";
 import { motion } from "framer-motion";
 import { ArrowLeft, Star, Clock, ExternalLink, Bookmark, MapPin, Users, Tag, MessageSquarePlus, ShoppingBag } from "lucide-react";
-import doordashLogo from "@/assets/doordash-logo.png";
+import doordashLogo from "@/assets/doordash.png";
 import grubhubLogo from "@/assets/grubhub-logo.png";
 import ubereatsLogo from "@/assets/ubereats-logo.png";
 import HarperButton from "@/components/HarperButton";
-import ReviewPlaceDialog from "@/components/ReviewPlaceDialog";
+import ReviewPlaceDialog from "@/components/ReviewPlaceDialogue";
 import { getPlaceBySlug } from "@/data/places";
 import { getResolvedPlace, type ResolvedPlace } from "@/hooks/useResolvedPlaces";
 
