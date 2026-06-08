@@ -1,0 +1,1 @@
+CREATE POLICY "Allow anonymous service request inserts" ON public.service_requests FOR INSERT TO anon, authenticated WITH CHECK (true);
